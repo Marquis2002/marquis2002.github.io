@@ -1,0 +1,1 @@
+import{c as e}from"./framer-X3jY35h9.js";import{M as t}from"./index-qj2fwNjV.js";var n=e();function r({className:e=``,children:r}){return(0,n.jsx)(`div`,{className:t(`row`,e),children:r})}export{r as t};
