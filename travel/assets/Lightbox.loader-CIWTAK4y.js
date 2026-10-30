@@ -1,0 +1,1 @@
+import{u as e}from"./router-DiLSOvN0.js";import{IndexParamSchema as t,galleryLoader as n}from"./Gallery.loader-Bw__K2L7.js";function r(r){let i=n(r),a=t.safeParse(r.params.photoIdx);if(!a.success||a.data>=i.travel.photos.length)throw e(null,{status:404});return{...i,photoIdx:a.data}}export{r as lightboxLoader};
